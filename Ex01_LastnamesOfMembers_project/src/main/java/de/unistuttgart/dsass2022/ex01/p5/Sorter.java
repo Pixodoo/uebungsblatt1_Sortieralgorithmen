@@ -11,6 +11,13 @@ public class Sorter {
 	 *             in the end
 	 */
 	public static <T extends Comparable<T>> void selectionSort(ISimpleList<T> list) {
+		if(liste != null && list.size() >=2){
+			for(int i = 0; i< list.size(); i++)
+				int maxElement = i;
+				for(int j=i; j< list.size()-i; j++){
+					if(list.get(maxElement)<list.get(j)
+				}
+		}
 		
 	}
 
